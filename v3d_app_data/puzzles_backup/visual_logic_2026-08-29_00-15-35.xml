@@ -1,0 +1,62 @@
+<xml xmlns="https://www.soft8soft.com/puzzles/xml">
+  <tab name="Init" type="InitTab" active="false" scrollx="20.000000000000114" scrolly="20.000000000000227" scale="0.9"></tab>
+  <tab name="Main" type="CommonTab" active="true" scrollx="75.3108208459372" scrolly="52.576464376335366" scale="0.676839362028687">
+    <block type="whenClicked" id="-+tS9DYMv]Pu?I$qm.U`" inline="false" x="-10" y="30">
+      <mutation adveventoptions="false" enableifmissed="false" useid="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="t4?gfV?E:QmBoaNvn%f7">
+          <field name="FIELDNAME">SPHERE BLACK</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id="l**/$HS?08UdSK9E@iz5">
+          <mutation usematerialindex="false"></mutation>
+          <value name="VALUE2">
+            <shadow type="materialList" id=",r$qmvQX#gicoV(6Qo;v">
+              <field name="FIELDNAME">PAINT BLACK</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="tpe/lNNmdo`nx6}QK3f{">
+              <field name="FIELDNAME">metal stand</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block type="whenClicked" id="]!z`u=jJLZBVC@P)Q.r@" inline="false" x="-10" y="150">
+      <mutation adveventoptions="false" enableifmissed="false" useid="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="kD+UYV9d+gk]ai(n]38y">
+          <field name="FIELDNAME">SPHERE CHROME</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id="xK(GE(mv9M:6+9e:a!{2">
+          <mutation usematerialindex="false"></mutation>
+          <value name="VALUE2">
+            <shadow type="materialList" id="!Ij2|YXBs:pzgQ:!2b@2">
+              <field name="FIELDNAME">sphere material</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="ttv,-}K1^eMzneaDvIj,">
+              <field name="FIELDNAME">metal stand</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <editorsettings viewport-x="729.600048828125" viewport-y="16.9999942779541" viewport-w="223.2" viewport-h="367.5" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>
